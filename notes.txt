@@ -1,0 +1,15 @@
+ - How to install react
+    npx create-react-app [app-name]
+    npx create-react-app [app-name] --template typescript
+ - project structure
+ - JSX
+ - components
+ - props
+ - conditionnal rendering
+ - list rendering
+
+ TODAY:
+    hooks: (useEffect - useState)
+    react good practices
+    // https://country-finder-medjahdi.netlify.app/
+    // algeria flag: https://flagcdn.com/w320/dz.png
