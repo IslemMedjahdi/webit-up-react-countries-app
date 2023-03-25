@@ -37,8 +37,8 @@ const Header: React.FC<Props> = ({ isDarkMode, toggleDarkMode }) => {
       <h1 className="text-lg font-bold text-gray-800 dark:text-white">
         WebitUp Countries
       </h1>
-      <p>Width : {windowSize.innerWidth}</p>
-      <p>Height: {windowSize.innerHeight}</p>
+      <p className="dark:text-white">Width : {windowSize.innerWidth}</p>
+      <p className="dark:text-white">Height: {windowSize.innerHeight}</p>
       <div>
         <p
           onClick={toggleDarkMode}
